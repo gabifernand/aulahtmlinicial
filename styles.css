@@ -41,3 +41,7 @@ button:hover {
     height: 60px;
     width: 180px;
 }
+
+input:focus{ /* focus é usado para mudar as características do elemento enquanto está sendo usado. Nesse caso, quado estivermos usando a caixa de texto, ela vai ficar vermelha */
+    background-color: aquamarine;
+}
