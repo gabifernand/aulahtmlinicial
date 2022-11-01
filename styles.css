@@ -1,6 +1,9 @@
 p {
     color: blue;
     font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 a {
