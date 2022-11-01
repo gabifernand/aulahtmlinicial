@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!-- Linha informativa, só fala que o tipo do arquivo é HMTL -->
+<html lang="en"> <!-- Aqui começa o arquivo HTML -->
+<head>
+    <!-- Identação, diferenet do Python, não é obrigatória no HTML. Mas é uma boa prática -->
+    <meta charset="UTF-8"> <!-- o set UTF-8 abrange os caracteres. Dependendo do charset, pode ser que apareça aqueles "losangos" quando temos um caracter especial -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Essa tag ajuda a melhorar a performance e compatibilidade no Internet Explorer, que é ruim em termos de atualização-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsividade: capacidade do site de se adaptar a diferentes tamanhos e formatos de tela-->
+    <title>Meu primeiro site</title> <!--Título que fica na aba do navegador-->
+</head>
+<body>
+    <p>Oi!</p>
+    <p>Estou na aula da Bayer, construindo meu primeiro HTML</p>
+    <img src="Logo Bayer na Parede.jpg.webp" alt="Logo Bayer"> <!--Essa tag de img, assim como a meta, não fecha. Pois são autocontidas: as infos dela são as próprias propriedades dela. Não tem conteúdo em si-->
+    <!--alt é um atributo que mostra a alternativa caso a imagem não carregue. Pode ser usado para áudio-descrição-->
+    <!--Também, por enquanto, não vamos nos importar com o tamanho da imagem no site. Isso é estilização, logo CSS, não HTML. O HTML vai só garatir que as coisas certas estejam nos lugares certos-->
+    <a href="https://www.bayer.com.br/pt/" target="_blank">LINK</a> <!-- <a> é a tag para link (vem de 'anchor')-->
+        <!--href é o atributo que contém o endereço do link-->
+        <!-- o atributo target serve para que o link não carregue na mesma guia. Nesse caso (_blank), vai carregar em uma aba em branco-->
+    <label for="#nome">Nome</label> <!--Dá um título. Nesse caso, para a caixa que vem dps. O For tbm pode descrever par que serve a caixa. O for até referencia o id da caixa abaixo-->
+    <input id="nome" type="text"> <!--input também não fecha. Serve para colocar uma caixa de texto, ou input. ID serve para dar "identidade" a essa tag, faz ela ser única-->
+    <label for="#idade">Nome</label>
+    <input id="idade" type="number"> <!--input de number só vai aceitar número, não qualquer texto-->
+    <input type="date">
+    <input type="radio"> <!--"Bolinha" de check único-->
+    <button>Clique aqui</button> <!-- põe um botão-->
+    <select id=""> <!-- tag select funciona junto com option. É para menu suspenso-->
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="MG">Minas Gerais</option>
+    </select>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mG8HAWIj5LE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--Coloquei direto um vídeo Embedded do YouTibe. Como se fosse um HTML dentro do meu HTML-->
+
+</body>
+</html>
