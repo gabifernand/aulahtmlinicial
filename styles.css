@@ -31,3 +31,7 @@ input {
     border-color: blueviolet;
     color: royalblue
 }
+
+img:hover {/*Estado quando o mouse está em cima do elemento, chama hover */
+    opacity: 0.8; /* 80% de transparÊncia quando o mouse está em cima
+}
