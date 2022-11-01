@@ -12,11 +12,11 @@ a {
 
 h1 {
     color: magenta;
+    font-family: 'Fasthand', cursive;
 }
 
 img {
     height: 100px;
-    font-family: 'Fasthand', cursive;
 }
 
 button {
