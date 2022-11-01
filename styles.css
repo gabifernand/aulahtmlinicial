@@ -25,3 +25,8 @@ button {
     height: 50px;
     width: 150px;
 }
+
+input {
+    border-radius: 2%;
+    border-color: blueviolet;
+}
